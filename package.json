@@ -5,6 +5,9 @@
   "main": "server/index.js",
   "dependencies": {
     "axios": "^0.16.2",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-icons": "^2.2.5",
@@ -17,12 +20,12 @@
     "react-scripts": "1.0.7"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=3010 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:3000",
+  "proxy": "http://localhost:3001",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/devlemire/swag-node-shop.git"
